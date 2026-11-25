@@ -10,7 +10,10 @@ Les modèles et les offres gratuites changent vite. Ce guide donne l'état au 25
 
 ### Ce qu'il faut savoir avant de choisir
 
-- **La taille compte.** Un modèle doit tenir en mémoire. Ce PC a 15,5 Go et pas de carte graphique dédiée : viser des modèles de 2 à 4 Go. Un modèle de 7 ou 8 Go se charge, mais laisse peu de place au reste et répond lentement.
+- **La taille compte.** Un modèle doit tenir en mémoire, avec de la marge pour le reste. Deux repères de départ, à confirmer par la mesure :
+  - sans carte graphique dédiée, le modèle tourne sur la mémoire vive : viser un modèle qui pèse moins du quart de cette mémoire (2 à 4 Go pour 16 Go) ;
+  - avec une carte graphique dédiée, le modèle va vite s'il tient en entier dans la mémoire vidéo : viser 1 à 2 Go de moins qu'elle (jusqu'à 6 Go pour une carte de 8 Go).
+- **Un modèle trop gros marche quand même**, mais lentement : il déborde sur la mémoire vive, ou ne laisse plus de place au reste.
 - **Le nom dit la taille.** Dans `gemma3:4b`, `4b` veut dire 4 milliards de paramètres. Plus il y en a, plus le modèle est capable et lent.
 - **Tous les modèles ne savent pas tout faire.** Sur ollama.com, chaque modèle porte des étiquettes : `vision` (lit des images), `tools` (sait appeler des outils), `embedding` (transforme un texte en vecteur), `thinking` (réfléchit avant de répondre).
 - **Chaque modèle a sa licence**, affichée sur sa page. Tous ceux de ce guide sont utilisables gratuitement pour un projet personnel ; lire la licence avant de publier autre chose qu'un projet d'apprentissage.
@@ -37,11 +40,11 @@ ollama pull gemma3:4b
 
 **Plus petits, si le PC peine** : `qwen3.5:2b` (2,7 à 3,1 Go, vision et outils), `qwen3:1.7b` (1,4 Go, outils). La qualité baisse : c'est une mesure intéressante à faire.
 
-**À éviter sur ce PC** : `llama3.2-vision` (7,8 Go), `mistral-nemo` (7,1 Go), `llama3.1:8b` (4,9 Go, lent sans carte graphique).
+**Plus gros, pour un PC avec carte graphique dédiée ou beaucoup de mémoire** : `llama3.1:8b` (4,9 Go, outils), `qwen2.5vl:7b` (6,0 Go, images), `mistral-nemo` (7,1 Go, outils), `llama3.2-vision` (7,8 Go, images).
 
 ### Ce qui n'a pas été mesuré
 
-Aucun de ces modèles n'a été lancé sur ce PC : Ollama n'y est pas encore installé. Les durées sont à mesurer par toi, dès le module 1 du projet 1. Si un appel simple dépasse une minute une fois le modèle chargé, passer à un modèle plus petit.
+Ce guide ne donne aucune durée : elle dépend de ta machine, et aucun modèle n'a été lancé pour l'écrire. Les durées sont à mesurer par toi, dès le module 1 du projet 1. Si un appel simple dépasse une minute une fois le modèle chargé, passer à un modèle plus petit.
 
 ### Les modèles qui « réfléchissent »
 
