@@ -10,15 +10,15 @@ Ces logiciels s'installent sur le PC où tu travailleras sur les projets. Si c'e
 
 ## État de ce poste au 25/11/2026
 
-| Outil | État | À faire |
-|---|---|---|
-| Windows 11 Pro | présent | rien |
-| Python 3.12.10 | présent | rien |
-| git 2.55 | présent | rien |
-| uv | absent | étape 1 |
-| Ollama | absent | étape 2 |
-| Éditeur de code (VS Code) | commande `code` absente | étape 3, au choix |
-| Docker | absent | option, projet 4 seulement |
+| Outil | 
+|---|
+| Windows 11 Pro |
+| Python 3.12.10 |
+| git 2.55 | 
+| uv | 
+| Ollama |
+| Éditeur de code (VS Code) | 
+| Docker | 
 
 Machine : 15,5 Go de mémoire, processeur Intel Core Ultra 5 225U, pas de carte graphique dédiée, 289 Go libres sur le disque.
 
