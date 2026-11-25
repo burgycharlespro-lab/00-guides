@@ -2,8 +2,8 @@
 
 Module produit par Claude Code (Anthropic), modèle Claude Fable 5.2. Créé le 25/11/2026.
 
-Lancer depuis le dossier Portfolios :
-    python 00-guides/verifier_installation.py
+Lancer depuis le dossier des guides :
+    python verifier_installation.py
 
 Le script ne modifie rien et n'installe rien. Il n'utilise que la bibliothèque
 standard de Python : il marche avant toute installation.
