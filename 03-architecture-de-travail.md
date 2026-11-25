@@ -76,7 +76,7 @@ Un token est un morceau de mot : c'est l'unité dans laquelle un modèle lit et 
 
 ## 6. Le cache des réponses
 
-Sur un portable sans carte graphique dédiée, un appel à un modèle local prend de quelques secondes à plusieurs minutes. Refaire tourner 40 cas à chaque essai serait trop long.
+Sur un PC sans carte graphique dédiée, un appel à un modèle local prend de quelques secondes à plusieurs minutes. Refaire tourner 40 cas à chaque essai serait trop long.
 
 Le principe : avant d'appeler le modèle, calculer une empreinte (`hashlib.sha256`) de tout ce qui définit la demande : nom du modèle, prompt, entrée, réglages. Si un fichier `cache/<empreinte>.json` existe, le lire. Sinon appeler le modèle et écrire le fichier.
 
@@ -123,9 +123,9 @@ Le fichier `CLAUDE.md` à la racine du dossier `Portfolios` demande à Claude de
 
 Dans le README de chaque projet, la section « Crédits » dit ce qui vient de Claude Code (le cours, la structure) et ce qui vient de toi (le code, les mesures). Le dire clairement vaut mieux que le laisser deviner.
 
-## 11. Ce poste de travail
+## 11. Adapter le travail à sa machine
 
-Relevé du 25/11/2026 sur ce PC : 15,5 Go de mémoire, processeur Intel Core Ultra 5 225U, pas de carte graphique dédiée. Conséquences :
+Les projets tournent sur un PC ordinaire, avec ou sans carte graphique dédiée. Sur une machine modeste :
 
 - Choisir de petits modèles (voir le guide 02).
 - Un seul modèle chargé à la fois ; fermer le navigateur pendant les longues mesures.
