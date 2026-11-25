@@ -137,7 +137,7 @@ Une documentation bouge. Si un lien casse, chercher le titre de la page sur le s
 - Les PDF des cahiers des charges des appellations n'ont pas été ouverts, et leurs deux adresses n'ont pas répondu à un contrôle automatique le 25/11/2026. Passer par la fiche de l'INAO. Une modification du cahier « Alsace » était en procédure en septembre 2024 : prendre la dernière version sur la fiche de l'INAO.
 - Le Fencing Footwork Dataset n'affiche aucune licence. Il contient des mesures de capteurs et des squelettes, sans vidéo en couleur. Avant toute réutilisation, écrire à ses auteurs. Le cours 4 ne s'appuie pas dessus.
 - La page de la CNIL sur le droit à l'image n'a pas été retrouvée à une adresse stable : seule la page d'accueil est citée.
-- Aucun modèle n'a été lancé sur ce PC. Les tailles viennent des pages d'ollama.com ; les durées restent à mesurer.
+- Aucun modèle n'a été lancé pour écrire ces guides. Les tailles viennent des pages d'ollama.com ; les durées restent à mesurer.
 
 ## Versions relevées le 25/11/2026
 
